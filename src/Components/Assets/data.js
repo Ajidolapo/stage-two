@@ -14,113 +14,113 @@ import gaming from './gaming_hp.png'
 import macbook from './macbook_13.png'
 import homepod from './homepod_mini.png'
 
-let items = [
+export const items = [
     {
         id:1,
         name:"Wireless Earbuds, IPX8",
+        price:"$56",
         description:"organic cotton, fairtrade certified",
         image:IPX8,
-        price: $56,
     },
     {
         id:2,
         name:"Airpod Pro Max",
+        price:"$56",
         description:"organic cotton, fairtrade certified",
         image:AirpodMax,
-        price: $56,
     },
     {
         id:3,
         name:"Bose Bt Earphone",
+        price:"$56",
         description:"organic cotton, fairtrade certified",
         image:boseBT,
-        price: $56,
     },
     {
         id:4,
         name:"VIVEFOX Headphones",
+        price:"$56",
         description:"organic cotton, fairtrade certified",
         image:Vivefox,
-        price: $56,
     },
     {
         id:5,
         name:"JBL TUNE 600BTNC",
+        price:"$56",
         description:"organic cotton, fairtrade certified",
         image:jbl,
-        price: $56,
     },
     {
         id:6,
         name:"TAGRY Bluetooth",
+        price:"$56",
         description:"organic cotton, fairtrade certified",
         image:Tagry,
-        price: $56,
     },
     {
         id:7,
         name:"Monster RGB",
+        price:"$56",
         description:"organic cotton, fairtrade certified",
         image:Monster,
-        price: $56,
     },
     {
         id:8,
         name:"Mpow CH6",
+        price:"$56",
         description:"organic cotton, fairtrade certified",
         image:Mpow,
-        price: $56,
     },
     {
         id:9,
         name:"TAOTRONICS Earbuds",
+        price:"$56",
         description:"organic cotton, fairtrade certified",
         image:Taotronics,
-        price: $56,
     },
     {
         id:10,
         name:"SounsPEATS APTX",
+        price:"$56",
         description:"organic cotton, fairtrade certified",
         image:Sounspeats,
-        price: $56,
     },
     {
         id:11,
         name:"Beat solo3",
+        price:"$56",
         description:"organic cotton, fairtrade certified",
         image:beatSolo,
-        price: $56,
     },
    {
         id:12,
         name:"Jelly comb Bluetooth",
+        price:"$56",
         description:"organic cotton, fairtrade certified",
         image:jellyComb,
-        price: $56,
     },
 ]
 
-let weekly = [
+export const weekly = [
     {
         id:13,
         name:"Gaming Headphones",
+        price:"$56",
         description:"organic cotton, fairtrade certified",
         image:gaming,
-        price: $56,
     },
     {
         id:14,
         name:"MacBook Pro 13",
+        price:"$56",
         description:"organic cotton, fairtrade certified",
         image:macbook,
-        price: $56,
     },
     {
         id:15,
         name:"Homepod Mini",
+        price:"$56",
         description:"organic cotton, fairtrade certified",
         image:homepod,
-        price: $56,
     },
 ]
