@@ -9,21 +9,16 @@ body {
     sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  @font-face {
-    font-family: "open sans";
-    font-weight: normal;
-    src: local('open sans'), url('https://www.1001fonts.com/download/font/open-sans.light.ttf') format('ttf');
-  }
+   @font-face {
+    font-family: DM Sans ExtraLight;
+    src: local('dm sans'), url(/src/DM_Sans/static/DMSans_18pt-ExtraLight.ttf) format('ttf');
+  } 
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-/* body {
-  font-family: 'open sans';
-} */
 
 
 .navBar {
