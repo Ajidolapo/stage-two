@@ -5,11 +5,10 @@ import next from '../Assets/right.png'
 import { items, weekly } from '../Assets/data'
 import Product from '../products/product'
 import Weekly from '../weekly/weekly'
-import { Link } from 'react-router-dom'
 
 const main = () => {
   return (
-    <div className='main'>
+    <div className='Main'>
       <div className='discount'>
         <img src={discount} alt='' width="100%" />
       </div>
@@ -44,7 +43,7 @@ const main = () => {
         </div>
 
         <div>
-          <h1 className='text'>Headphones For You!</h1><br />
+          <h1 className='mainText'>Headphones For You!</h1><br />
           <div className='products'>
             {items.map((item, i) => {
               return <Product key={i}
@@ -67,7 +66,7 @@ const main = () => {
         </div>
         
           <div>
-            <h1 className='text'>Weekly Popular Products</h1><br />
+            <h1 className='mainText'>Weekly Popular Products</h1><br />
             <div className='weekly'>
             {weekly.map((weekly, w) => {
               return <Weekly key={w}

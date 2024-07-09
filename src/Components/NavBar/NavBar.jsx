@@ -30,7 +30,7 @@ export const NavBar = () => {
                 </div>
             </li>
         </ul>
-        <div className='cart'>
+        <div className='Cart'>
                <Link to = '/cart' className='link'><button><img src={cart_icon} alt="cart" />  {itemCount >= 0 && <span className='cartCount'>{itemCount}</span>}</button></Link>
             </div>
     </div>

@@ -38,10 +38,10 @@
     margin-top: 10px;
 }
 
-.cart{
+.addCart{
     border-radius: 30px;
     border: 1px solid black;
-    padding: px 15px;
+    padding: 5px 15px;
     background-color: transparent;
     font-size: 15px;
     font-weight: normal;

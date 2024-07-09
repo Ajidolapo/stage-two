@@ -14,22 +14,19 @@ import { Link } from 'react-router-dom'
 
 const cart = () => {
   return (
-    <div className='main'>
+    
+    <div className='cartPage'>
       <div className="breadcrumb">
-          <span className="breadcrumb-item">Electronics</span>
-          <span className="breadcrumb-item">/</span>
-          <span className="breadcrumb-item">Audio</span>
-          <span className="breadcrumb-item">/</span>
-          <span className="breadcrumb-item">Headphones</span>
-          <span className="breadcrumb-item">/</span>
-          <span className="breadcrumb-item">Shop Headphones by type</span>
-          <span className="breadcrumb-item">/</span>
-          <span className="breadcrumb-item">airpods-max</span>
-        </div>
-        <div className="container">
+        <span className="breadcrumb-item" style={{color:"#616161"}}>Electronics </span>
+        <span className="breadcrumb-item" style={{color:"#616161"}}>  / Audio </span>
+        <span className="breadcrumb-item" style={{color:"#616161"}}>  / Headphones </span>
+        <span className="breadcrumb-item" style={{color:"#616161"}}>  / Shop Headphones by type </span>
+        <span className="breadcrumb-item">  / airpods-max</span>
+      </div>
+        <div className="Container">
       <div className="product-details">
         <div className="product-image">
-          <img src={airpod_max} alt="Airpods Max" style={{ backgroundColor: "#ECECEC", padding: "20px", borderRadius: "5px", height: "350px", position:"absolute"}}/>
+          <img src={airpod_max} alt="Airpods Max"/>
         </div>
         <div className="product-info">
           <h2 style={{margin:"10px"}}>AIRPORDS-MAX</h2>
@@ -37,15 +34,19 @@ const cart = () => {
             A perfect balance for hearing high-fidelity audio and
             effortless magic of airpods.
           </p>
-          <div className="rating" style={{marginBottom:'10px'}}>
-            <span className="star">★★★★★</span>
+          <div className="rating" >
+            <span className="star" >★★★★★</span>
             <span className="review-count">(121)</span><hr />
           </div>
           <div className="price" style={{color:"#1F456E", fontSize:"18px", fontWeight:"bold", marginTop:"10px"}}>$200.00</div>
           <p style={{color:"#616161", marginBottom:"10px"}}>amount to be paid</p><hr />
           <p style={{color:"#1F456E", margin:"10px"}}>Choose preferred colour</p>
           <div className="color-options">
-            
+            <img src={coral} alt="" style={{marginBottom:"20px", marginRight:"7px"}}/>
+            <img src={blue} alt=""  style={{marginBottom:"20px", marginRight:"7px"}}/>
+            <img src={green} alt="" style={{marginBottom:"20px", marginRight:"7px"}}/>
+            <img src={grey} alt=""  style={{marginBottom:"20px", marginRight:"7px"}}/>
+            <img src={dark_grey} alt="" style={{marginBottom:"20px"}}/><hr />
           </div>
           <div className="quantity">
             <button style={{border:"none"}}>-</button>
@@ -54,29 +55,30 @@ const cart = () => {
           </div>
           <p>only 12 items left</p>
           <p>don't miss out</p>
-          <Link to="/checkout"><button className="buy-button" style={{borderRadius:"30px", padding:"5px 20px", backgroundColor:"#234F1E", color:"white", border:"none"}}>Buy Now</button></Link>
-          <button className="cart-button"style={{borderRadius:"30px", padding:"5px 20px", backgroundColor:"transparent", color:"#1F456E", border:"1px solid #1F456E"}}>Add to cart</button>
+          <Link to="/checkout"><button className="buy-button" style={{borderRadius:"30px", padding:"5px 20px", backgroundColor:"#234F1E", color:"white", border:"none",marginRight:"10px", marginBottom:"20px"}}>Buy Now</button></Link>
+          <button className="cart-button"style={{borderRadius:"30px", padding:"5px 20px", backgroundColor:"transparent", color:"#1F456E", border:"1px solid #1F456E" , marginBottom:"20px"}}>Add to cart</button><hr />
         </div>
       </div>
-      <div className="free-delivery">
-        <img src={delivery} alt="Free Delivery" />
-      </div>
-      <div className="similar-products" style={{display: "grid,", gridTemplateColumns: "repeat(4,1fr"}}>
-        {/* <h2>Similar Products</h2> */}
+      
+      <div className='similar-products'>
         <div className="product-grid">
-          <div className="product-item" style={{ backgroundColor: "#ECECEC", padding: "20px", borderRadius: "5px", height: "50px"}}>
+          <div className="product-item">
             <img src={cart2} alt="Airpods Max" />
           </div>
-          <div className="product-item" style={{ backgroundColor: "#ECECEC", padding: "20px", borderRadius: "5px", height: "50px"}}>
+          <div className="product-item">
             <img src={cart3} alt="Airpods Max" />
           </div>
-          <div className="product-item" style={{ backgroundColor: "#ECECEC", padding: "20px", borderRadius: "5px", height: "50px"}}>
+          <div className="product-item" >
             <img src={cart4} alt="Airpods Max" />
             </div>
-          <div className="product-item" style={{ backgroundColor: "#ECECEC", padding: "20px", borderRadius: "5px", height: "50px"}}>
+          <div className="product-item">
             <img src={cart5} alt="Airpods Max" />
           </div>
+          
+        <div className="free-delivery">
+        <img src={delivery} alt="Free Delivery" />
         </div>
+      </div>
       </div>
     </div>
     </div>
