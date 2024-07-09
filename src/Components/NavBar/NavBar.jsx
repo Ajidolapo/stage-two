@@ -19,10 +19,10 @@ export const NavBar = () => {
         <Link to='/' className='link'><img src={logo} alt="logo" onClick={()=>{setMenu("home")}}/></Link>
         </div>
         <ul className='navMenu'>
-            <li onClick={()=>{setMenu("category")}}><Link to = '/category' className='link'><span style = {{ color: menu === "category" ? "#FA8128" : "black"}}>Category</span></Link>{menu==="category" && <hr />}<select name="" id="select"></select></li>
-            <li onClick={()=>{setMenu("sales")}}><Link to = '/sales' className='link'><span style = {{ color: menu === "sales" ? "#FA8128" : "black"}}>Deals</span></Link>{menu==="sales" && <hr />}</li>
-            <li onClick={()=>{setMenu("new")}}><Link to = '/new' className='link'><span style = {{ color: menu === "new" ? "#FA8128" : "black"}}>What's New</span></Link>{menu==="new" && <hr />}</li>
-            <li onClick={()=>{setMenu("delivery")}}><span style = {{ color: menu === "delivery" ? "#FA8128" : "black"}}>Delivery</span>{menu==="delivery" && <hr />}</li>
+            <li onClick={()=>{setMenu("category")}}><Link to = '/category' className='link'><span style = {{ color: menu === "category" ? "#FA8128" : "#1F456E"}}>Category</span></Link>{menu==="category" && <hr />}<select name="" id="select"></select></li>
+            <li onClick={()=>{setMenu("sales")}}><Link to = '/sales' className='link'><span style = {{ color: menu === "sales" ? "#FA8128" : "#1F456E"}}>Deals</span></Link>{menu==="sales" && <hr />}</li>
+            <li onClick={()=>{setMenu("new")}}><Link to = '/new' className='link'><span style = {{ color: menu === "new" ? "#FA8128" : "#1F456E"}}>What's New</span></Link>{menu==="new" && <hr />}</li>
+            <li onClick={()=>{setMenu("delivery")}}><span style = {{ color: menu === "delivery" ? "#FA8128" : "#1F456E"}}>Delivery</span>{menu==="delivery" && <hr />}</li>
             <li>
                 <div className='searchContainer'>
                     <input type="text" className='searchInput' placeholder='Type a command or search...'/>

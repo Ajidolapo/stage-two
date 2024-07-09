@@ -10,8 +10,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   @font-face {
-    font-family: dm sans;
-    src: url(../src/DMSans-VariableFont_opsz,wght.ttf) format('truetype');
+    font-family: "open sans";
+    font-weight: normal;
+    src: local('open sans'), url('https://www.1001fonts.com/download/font/open-sans.light.ttf') format('ttf');
   }
 }
 

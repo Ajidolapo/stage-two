@@ -123,4 +123,11 @@ export const weekly = [
         description:"organic cotton, fairtrade certified",
         image:homepod,
     },
+    {
+        id:1,
+        name:"Wireless Earbuds, IPX8",
+        price:"$56",
+        description:"organic cotton, fairtrade certified",
+        image:IPX8,
+    },
 ]

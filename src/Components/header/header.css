@@ -1,0 +1,22 @@
+.header {
+    background-color:#1F456E;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+select{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.contact{
+    display: flex;
+    align-items: left;
+    margin: 0;
+    padding: 0;
+   align-items: flex-start;
+}

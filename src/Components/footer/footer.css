@@ -1,0 +1,175 @@
+.footer {
+    background-color: #1F456E;
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+  }
+  
+  .footer-logo {
+    width: 120px;
+    height: 100px;
+    margin: 5px;
+    float: left;
+  }
+  
+  /* .footer-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    float: left;
+    position: absolute;
+  }
+  
+  .footer-nav li {
+    margin-right: 20px;
+  }
+  
+  .footer-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+    flex: 0 0 100%;
+  }
+  
+  .footer-nav a:hover {
+    color: #333;
+  }
+  
+  .copyright {
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    text-align: right;
+  }
+  
+  */
+  .footer {
+    background-color: #1c3f5a;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .image img {
+    max-width: 100px; /* Adjust the size of the logo */
+  }
+  
+  .sub {
+    
+    margin-left: 20px;
+  }
+  
+  .text {
+    max-width: 400px; /* Adjust width to fit text into two lines */
+    line-height: 1.5;
+    color: white;
+    text-align: left;
+  }
+  
+  .actions {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .subscribe {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #f48024;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .subInput {
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #1c3f5a;
+    background-color: transparent;
+  }
+  
+  .footer-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .footer-nav li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .tings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+  }
+  
+  .copyright {
+    text-align: center;
+  }
+  
+    
+  /* .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  .subInfo{
+    position: absolute;
+    align-items: self-end;
+    gap: 10px;
+  }
+
+  .subscribe{
+    border-radius: 30px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #FA8128;
+    border: #FA8128;
+  }
+
+  .subInput{
+    border-radius: 30px;
+    padding: 10px 70px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+  }
+  
+  .copyright {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  
+  .mt-4 {
+    margin-top: 40px;
+  }
+  
+  .text-center {
+    text-align: center;
+  } */

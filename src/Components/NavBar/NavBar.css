@@ -1,5 +1,5 @@
 body {
-    font-family: 'dm sans';
+    font-family: 'open sans';
 }
 
 
@@ -21,7 +21,7 @@ body {
     align-items: center;
     list-style: none;
     gap: 50px;
-    color: black;
+    color: #1F456E;
 }
 
 .navMenu li {
