@@ -1,3 +1,4 @@
+/* General Styles */
 .App {
   text-align: center;
   max-width: 100%;
@@ -38,7 +39,46 @@
   }
 }
 
-.t{
+.t {
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+  .App-header {
+    font-size: calc(8px + 2vmin);
+  }
+
+  .App-logo {
+    height: 35vmin;
+  }
+}
+
+@media (max-width: 768px) {
+  .App-header {
+    font-size: calc(6px + 2vmin);
+  }
+
+  .App-logo {
+    height: 30vmin;
+  }
+}
+
+@media (max-width: 480px) {
+  .App-header {
+    font-size: calc(4px + 2vmin);
+  }
+
+  .App-logo {
+    height: 25vmin;
+  }
+
+  .App {
+    padding: 10px;
+  }
+
+  .App-link {
+    font-size: 14px;
+  }
 }

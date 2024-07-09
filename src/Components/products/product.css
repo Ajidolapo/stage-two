@@ -1,48 +1,106 @@
-.product{
+.product {
     width: 300px;
+    margin: 0 auto; /* Center the product container */
 }
 
-.product p{
-     margin: 6px 0px;
+.product p {
+    margin: 6px 0;
 }
 
-.prodPrice{
+.prodPrice {
     color: #03C04A;
     display: flex;
-    /* gap: 20px; */
     font-size: 1.2rem;
 }
 
 .product:hover {
-  transform: scale(1.05);  
-  transition: 0.6s;
+    transform: scale(1.05);
+    transition: 0.6s;
 }
 
-.prodInfo{
+.prodInfo {
     padding: 10px;
 }
 
-.prodHeader{
-    display: flex;;
-    /* justify-content: space-between; */
-   align-items: flex-start;
+.prodHeader {
+    display: flex;
+    align-items: flex-start;
     gap: 80px;
 }
 
-.name{
+.name {
     font-size: 1.2em;
     align-self: flex-start;
 }
 
-.desc{
+.desc {
     margin-top: 10px;
 }
 
-.addCart{
+.addCart {
     border-radius: 30px;
     border: 1px solid black;
     padding: 5px 15px;
     background-color: transparent;
     font-size: 15px;
     font-weight: normal;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+    .product {
+        width: 250px; /* Adjust product width for tablets */
+    }
+
+    .prodHeader {
+        gap: 60px; /* Adjust gap for tablets */
+    }
+
+    .name {
+        font-size: 1.1em; /* Adjust font size for tablets */
+    }
+}
+
+@media (max-width: 768px) {
+    .product {
+        width: 200px; /* Adjust product width for smaller tablets */
+    }
+
+    .prodHeader {
+        gap: 40px; /* Adjust gap for smaller tablets */
+    }
+
+    .name {
+        font-size: 1em; /* Adjust font size for smaller tablets */
+    }
+
+    .addCart {
+        font-size: 14px; /* Adjust button font size for smaller tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .product {
+        width: 100%; /* Make product full width on mobile devices */
+        padding: 10px; /* Add padding for better spacing */
+    }
+
+    .prodPrice {
+        font-size: 1rem; /* Adjust font size for mobile devices */
+    }
+
+    .prodHeader {
+        flex-direction: column; /* Stack header elements vertically on mobile */
+        gap: 20px; /* Adjust gap for mobile */
+    }
+
+    .name {
+        font-size: 0.9em; /* Adjust font size for mobile */
+    }
+
+    .addCart {
+        width: 100%; /* Make button full width on mobile */
+        font-size: 14px; /* Adjust button font size for mobile */
+        padding: 10px; /* Adjust padding for better touch targets */
+    }
 }

@@ -15,7 +15,7 @@ const product = ({id,name,image,price,description}) => {
       </div >
       <p className='desc'>{description}</p>
       </div>
-      <button className='addCart'>Add to cart</button>
+      <button className='addCart' style={{marginBottom:"20px"}}>Add to cart</button>
     </div>
   )
 }

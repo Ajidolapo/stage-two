@@ -4,7 +4,7 @@ import amazon from '../../Components/Assets/amazon.png'
 import mastercard from '../../Components/Assets/mastercard.png'
 import visa from '../../Components/Assets/visa.png'
 import './checkout.css'
-// import '/index.css'
+
 
 const checkout = () => {
     return (
@@ -19,12 +19,14 @@ const checkout = () => {
                         <h1 style={{ textAlign: "center", marginBottom: "20px", width: "100%" }}>Review item and shipping</h1>
                         <div style={{ display: "flex", alignItems: "center" }}>
                             <img src={airpod_max} alt="" className="image" style={{ height: "100px", marginRight: "20px" }} />
-                            <div className="info" style={{ flex: "1" }}>
+                            <div className="info-airpods" style={{ flex: "1" }}>
                                 <h3>Airpods-max</h3>
                                 <h3>$200.00</h3>
+                                </div >
+                                <div className='info-color'>
                                 <p>color: pink</p>
                                 <p>Quantity: 01</p>
-                            </div>
+                                </div>
                         </div>
                     </section>
                     <section className="delivery">
