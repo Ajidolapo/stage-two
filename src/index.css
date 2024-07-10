@@ -183,10 +183,12 @@ code {
 @media (max-width: 768px) {
   .header {
     padding: 10px;
+    display: none;
   }
 
   .navMenu {
     gap: 10px;
+    display: none;
   }
 
   .navMenu li {
@@ -243,10 +245,12 @@ code {
 
     .navBar {
       padding: 5px 10px;
+      justify-content: space-between;
     }
   
     .navMenu {
       gap: 5px;
+      display: n;
     }
   
     .navMenu li {
