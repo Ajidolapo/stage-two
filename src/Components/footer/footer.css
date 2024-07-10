@@ -19,7 +19,7 @@
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -96,85 +96,120 @@
   text-align: center;
 }
 
-/* Media Queries for Responsiveness */
-@media (max-width: 1024px) {
-  .container {
-    padding: 0 15px;
+@media (max-width: 768px) {
+  .sub {
+      text-align: center;
   }
 
   .text {
-    max-width: 300px; /* Adjust width for medium screens */
-  }
-}
-
-@media (max-width: 768px) {
-  .row {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .footer-logo {
-    margin-bottom: 10px;
+      font-size: 14px;
   }
 
   .actions {
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: 10px;
+      flex-direction: column;
+      gap: 5px;
   }
 
-  .subscribe {
-    margin-right: 0;
-    margin-bottom: 10px;
-  }
-
-  .subInput {
-    width: 100%;
+  .subscribe, .subInput {
+      width: 100%;
+      max-width: none;
   }
 
   .footer-nav {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+      flex-direction: column;
+      gap: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .row {
+      flex-direction: column;
+      gap: 10px;
   }
 
-  .footer-nav li {
-    margin-bottom: 10px;
+  .sub {
+      order: 1;
+      width: 100%;
+  }
+
+  .image {
+      order: 2;
+  }
+
+  .footer-nav {
+      order: 3;
+  }
+
+  .copyright {
+      order: 4;
+  }
+
+  .subscribe, .subInput {
+      width: 100%;
   }
 }
 
 @media (max-width: 480px) {
-  .footer-logo {
-    width: 80px;
-    height: 80px;
+  .container {
+      padding: 0 10px;
   }
 
   .text {
-    max-width: 100%;
-    text-align: center;
+      font-size: 12px;
   }
 
   .actions {
-    align-items: center;
-    width: 100%;
+      gap: 5px;
   }
 
-  .subscribe, .subInput {
-    width: 100%;
-    text-align: center;
+  .subscribe {
+      padding: 8px 16px;
+  }
+
+  .subInput {
+      padding: 8px;
   }
 
   .footer-nav {
-    flex-direction: column;
-    align-items: center;
-    gap: 5px;
+      gap: 5px;
   }
 
-  .footer-nav li {
-    margin-bottom: 5px;
+  .footer-nav li a {
+      font-size: 14px;
   }
 
   .copyright {
-    padding-top: 20px;
+      font-size: 12px;
+  }
+}
+
+@media (max-width: 360px) {
+  .text {
+      font-size: 10px;
+  }
+
+  .actions {
+      gap: 2px;
+  }
+
+  .subscribe {
+      padding: 6px 12px;
+      font-size: 12px;
+  }
+
+  .subInput {
+      padding: 6px;
+  }
+
+  .footer-nav {
+      gap: 3px;
+  }
+
+  .footer-nav li a {
+      font-size: 12px;
+  }
+
+  .copyright {
+      font-size: 10px;
   }
 }

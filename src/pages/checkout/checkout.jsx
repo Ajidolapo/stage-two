@@ -19,13 +19,15 @@ const checkout = () => {
                         <h1 style={{ textAlign: "center", marginBottom: "20px", width: "100%" }}>Review item and shipping</h1>
                         <div style={{ display: "flex", alignItems: "center" }}>
                             <img src={airpod_max} alt="" className="image" style={{ height: "100px", marginRight: "20px" }} />
-                            <div className="info-airpods" style={{ flex: "1" }}>
-                                <h3>Airpods-max</h3>
-                                <h3>$200.00</h3>
+                            <div className='info'>
+                            <div className="info-airpods" >
+                                <h3 style={{marginRight: "350px" }}>Airpods-max</h3>
+                                <h4>$200.00</h4>
                                 </div >
                                 <div className='info-color'>
-                                <p>color: pink</p>
-                                <p>Quantity: 01</p>
+                                <h3>color: pink</h3>
+                                <h4>Quantity: 01</h4>
+                                </div>
                                 </div>
                         </div>
                     </section>
